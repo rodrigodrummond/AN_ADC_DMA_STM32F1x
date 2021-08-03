@@ -1,8 +1,15 @@
 /* USER CODE BEGIN Header */
-/**
+/** Author: Rodrigo Drummond Lima
+ * Federal University of Minas Gerais (UFMG)
   ******************************************************************************
   * @file           : main.c
-  * @brief          : Main program body
+  * @brief          : Application program for DMA and ADC continuous conversion
+  *
+  * GNU Liscence
+  *
+  * This application note was developed as a project for the Embedded Systems
+  * Programming course at the Federal University of Minas Gerais (UFMG)
+  * in August 2021, with professor Ricardo de Oliveira Duarte.
   ******************************************************************************
   * @attention
   *

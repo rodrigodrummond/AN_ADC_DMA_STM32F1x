@@ -63,7 +63,7 @@ Drivers/STM32F1xx_HAL_Driver/Src/%.o: ../Drivers/STM32F1xx_HAL_Driver/Src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo $(PWD)
-	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/RodrigoDrummond/Documents/GitHub/ADC_DMA_stm32f103rb/Inc" -I"C:/Users/RodrigoDrummond/Documents/GitHub/ADC_DMA_stm32f103rb/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/RodrigoDrummond/Documents/GitHub/ADC_DMA_stm32f103rb/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/RodrigoDrummond/Documents/GitHub/ADC_DMA_stm32f103rb/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/RodrigoDrummond/Documents/GitHub/ADC_DMA_stm32f103rb/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/RodrigoDrummond/Documents/GitHub/AN_ADC_DMA_STM32F1x/ADC_DMA_stm32f103rb/Inc" -I"C:/Users/RodrigoDrummond/Documents/GitHub/AN_ADC_DMA_STM32F1x/ADC_DMA_stm32f103rb/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/RodrigoDrummond/Documents/GitHub/AN_ADC_DMA_STM32F1x/ADC_DMA_stm32f103rb/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/RodrigoDrummond/Documents/GitHub/AN_ADC_DMA_STM32F1x/ADC_DMA_stm32f103rb/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/RodrigoDrummond/Documents/GitHub/AN_ADC_DMA_STM32F1x/ADC_DMA_stm32f103rb/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
